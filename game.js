@@ -26,7 +26,7 @@ const player = new (function () {
 
   this.reset();
   this.img = new Image();
-  this.img.src = "moto.png";
+  this.img.src = "https://raw.githubusercontent.com/coding-youtuber/motorcycle-game/master/src/images/moto.png";
   this.draw = function () {
     const p1 = c.height - noise(t + this.x) * 0.25;
     const p2 = c.height - noise(t + 5 + this.x) * 0.25;
